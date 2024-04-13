@@ -1,0 +1,36 @@
+h1{
+    font-size: 3rem;
+}
+h2{
+    font-size: 2rem;
+}
+h3{
+    font-size: 1.3rem;
+}
+p{
+    font-size: 1rem;
+}
+
+.red{
+    width: 12vw;
+    padding: 10px;
+    border: none;
+    color: white;
+    background-color: rgb(136, 18, 18);
+}
+.red:hover{
+    cursor: pointer;
+    background-color: rgb(90, 25, 25);
+}
+
+.purple{
+    width: 7vw;
+    padding: 8px;
+    border: none;
+    color: white;
+    background-color: rgb(74, 6, 152);
+}
+.purple:hover{
+    cursor: pointer;
+    background-color: rgb(56, 29, 86);
+}

@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+nav{
+    background-color: rgb(53, 9, 141);
+    height: 55px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav img{
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 14px;
+}
+
+nav ul li{
+    list-style-type: none;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.first{
+    color: white;
+    height: 133vh;
+    background-image: url(img/img1.avif);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 21px;
+}
+
+.second{
+    color: white;
+    padding: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+    /* gap: 12px; */
+    height: 221vh;
+    background: linear-gradient(to bottom, rgb(57, 7, 127), white);
+}
+
+.second div{
+    color: rgb(0, 0, 0);
+    padding: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    gap: 12px;
+    align-items: center;
+    /* height: 200vh; */
+    
+}
+
+.third{
+    padding: 14px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    justify-content: center;
+    background-image: url(img/img2.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+
+.fourth{
+    padding: 21px;
+    display: flex;
+    justify-content: center;
+    gap: 21px;
+    /* align-items: center; */
+}
+
+.fourth img{
+    width: 28vw;
+}
+
+.fourth div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+footer{
+    /* display: flex; */
+}
+
+footer .upper{
+    /* width: 100vw; */
+    /* padding: 10px; */
+    height: 48vh;
+    background-color: rgb(38, 14, 115);
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+}
+
+.box hr{
+    margin-bottom: 7px;
+}
+
+.box h2{
+    color: white;
+}
+
+.upper ul li{
+    list-style: none;
+}
+.upper ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.upper ul li a:hover{
+    
+}
+.lower p{
+    background-color: rgb(72, 12, 145);
+    text-align: center;
+    color: white;
+}
