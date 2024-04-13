@@ -12,7 +12,7 @@ nav{
     justify-content: space-around;
     align-items: center;
 }
-nav img{
+header nav img{
     width: 75px;
 }
 
@@ -59,7 +59,7 @@ nav ul li a{
 }
 
 .second .logo{
-    width: 100px;
+    width: 101px;
 }
 .second div{
     color: rgb(0, 0, 0);
