@@ -13,7 +13,7 @@ nav{
     align-items: center;
 }
 nav img{
-
+    width: 75px;
 }
 
 nav ul {
@@ -58,6 +58,9 @@ nav ul li a{
     background: linear-gradient(to bottom, rgb(57, 7, 127), white);
 }
 
+.second .logo{
+    width: 100px;
+}
 .second div{
     color: rgb(0, 0, 0);
     padding: 14px;
