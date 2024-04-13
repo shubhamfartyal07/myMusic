@@ -1,5 +1,7 @@
 nav {
     flex-direction: column;
+    height: auto;
+    padding-bottom: 14px;
 }
 
 nav ul li a{
@@ -8,6 +10,27 @@ nav ul li a{
     padding-bottom: 8px;
 }
 
+.first{
+    height: 70vh;
+    padding: 0 21px;
+}
 .second img{
     width: 100%;
+}
+.third{
+    height: 70vh;
+    padding: 0 21px;
+}
+
+.fourth img {
+    display: none;
+    height: 74px;
+}
+
+footer .upper {
+    padding: 0 21px;
+    height: 28vh;
+}
+footer .upper .box h2{
+   font-size: 1rem;
 }
